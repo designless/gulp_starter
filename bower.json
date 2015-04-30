@@ -1,0 +1,21 @@
+{
+  "name": "gulp_starter",
+  "version": "0.0.0",
+  "authors": [
+    "kaito <kalbus1892@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.1",
+    "fontawesome": "~4.3.0",
+    "fastclick": "~1.0.6",
+    "jquery-smooth-scroll": "~1.5.5"
+  }
+}

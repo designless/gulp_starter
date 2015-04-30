@@ -1,0 +1,31 @@
+mixin meta(title, slug)
+  meta(charset="utf-8")
+  title= title
+  meta(content="" name="description")
+
+  meta(property="og:locale" content="ja_JP")
+  meta(property="og:type" content="website")
+  meta(property="og:url" content="http://example.com/#{slug}")
+  meta(property="og:site_name" content="")
+  meta(property="og:image" content="ogp.jpg")
+  meta(property="og:title" content="")
+  meta(property="og:description" content="")
+
+  meta(name="twitter:card" value="summary")
+  meta(name="twitter:site" value="@")
+  meta(name="twitter:creator" value="@")
+  meta(name="twitter:url" value="http://")
+  meta(name="twitter:title" value="")
+  meta(name="twitter:description" value="")
+  meta(name="twitter:image" value="ogp.jpg")
+
+  link(rel="stylesheet", href="/app.css")
+  link(rel="shortcut icon" href="/favicon.ico")
+  
+  link(href="/images/apple-touch-icon.png" rel="apple-touch-icon")
+  link(href="/images/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76")
+  link(href="/images/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120")
+  link(href="/images/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152")
+  <!--[if IE 8]>
+  <script src="/javascripts/html5shiv.js"></script>
+  <![endif]-->

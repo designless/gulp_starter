@@ -1,0 +1,93 @@
+body {
+  height: 100%;
+}
+
+.text-red {
+  color: $red !important;
+}
+
+.text-blue {
+  color: $blue !important;
+}
+
+.text-green {
+  color: $green !important;
+}
+
+.text-orange {
+  color: $orange !important;
+}
+
+.text-purple {
+  color: $purple !important;
+}
+
+.text-yellow {
+  color: $yellow !important;
+}
+
+.text-gray {
+  color: $dark-gray !important;
+}
+
+.text-small {
+  font-size: .8rem;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.mb0 {
+  margin: 0px !important;
+}
+.mb10 {
+  margin-bottom: 10px !important;
+}
+.mb15 {
+  margin-bottom: 15px !important;
+}
+.mb20 {
+  margin-bottom: 20px !important;
+}
+.mb30 {
+  margin-bottom: 30px !important;
+}
+.mb40 {
+  margin-bottom: 40px !important;
+}
+.mb50 {
+  margin-bottom: 50px !important;
+}
+
+.bg-gray {
+  background: $gray;
+}
+
+a {
+  -webkit-transition: all .25s ease-out;
+  -moz-transition: all .25s ease-out;
+  -ms-transition: all .25s ease-out;
+  -o-transition: all .25s ease-out;
+  transition: all .25s ease-out;
+  text-decoration: none;
+  &:hover {
+    color: $red;
+  }
+}
+
+[class^="fa"]:before,
+[class*=" fa-"]:before {
+  margin-right: 2px;
+}
+
+ul, ol {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+img {
+ max-width: 100%;
+ height: auto;
+}
