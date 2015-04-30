@@ -53,7 +53,7 @@ gulp.task("js", function() {
 });
 
 gulp.task('sass', function(){
-  gulp.src(['./source/stylesheets/app.scss','bower_components/foundation/scss'])
+  gulp.src(['./source/stylesheets/app.scss'])
   .pipe(plumber())
   .pipe(sass())
   .pipe(pleeease({
@@ -74,10 +74,10 @@ gulp.task('jade', function () {
 });
 
 gulp.task('watch', function(){
-  runSequence('build','server');
-  gulp.watch('./source/stylesheets/**/*.scss', ['sass']);
-  gulp.watch('./source/javascripts/**/*.js', ['js']);
-  gulp.watch("./source/**/*.jade",["jade"]);
+    runSequence('server')
+    gulp.watch('./source/stylesheets/**/*.scss', ['sass']);
+    gulp.watch('./source/javascripts/**/*.js', ['js']);
+    gulp.watch("./source/**/*.jade",["jade"]);
 });
 
 gulp.task('build', ['jade', 'sass', 'js', 'bower'])

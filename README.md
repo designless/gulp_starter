@@ -9,12 +9,12 @@ node v0.10.38 ~
 (v0.12.2では動作しない)
 
 ## Usage
-gulp
-gulp watch
+gulp  
+gulp watch  
 
 ## Install
-npm install
-bower install
+npm install  
+bower install  
 
 ## Contribution
 
