@@ -80,6 +80,6 @@ gulp.task('watch', function(){
   gulp.watch("./source/**/*.jade",["jade"]);
 });
 
-gulp.task('build', ['jade', 'sass', 'js'])
+gulp.task('build', ['jade', 'sass', 'js', 'bower'])
 
 gulp.task('default', ['build'])

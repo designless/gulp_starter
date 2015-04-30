@@ -2,5 +2,9 @@
 build
 bower_components
 node_modules
+
 fontawesome
 foundation
+
+fastclick.js
+jquery.smooth-scroll.min.js
