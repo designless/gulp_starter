@@ -1,13 +1,13 @@
 {
-  "name": "gulp_test",
+  "name": "gulp_starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "KaitoWatanabe",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.6.5",
     "gulp": "^3.8.11",
@@ -21,5 +21,9 @@
     "gulp-uglify": "^1.2.0",
     "gulp-uglifyjs": "^0.6.1",
     "run-sequence": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KaitoWatanabe/gulp_starter"
   }
 }

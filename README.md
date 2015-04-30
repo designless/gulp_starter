@@ -5,7 +5,8 @@ gulp_starter
 Middlemanライクな開発ができるgulpfileを書きました。
 
 ## Requirement
-node 10.0 ~
+node v0.10.38 ~
+(v0.12.2では動作しない)
 
 ## Usage
 gulp
