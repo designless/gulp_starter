@@ -28,6 +28,9 @@ gulp.task('bower',function(){
   .pipe(gulp.dest('./source/javascripts/'));
   gulp.src('./bower_components/jquery-smooth-scroll/jquery.smooth-scroll.min.js')
   .pipe(gulp.dest('./source/javascripts/'));
+  gulp.src('./bower_components/fontawesome/fonts/*')
+  .pipe(gulp.dest('./build/fonts/'));
+
 });
 
 gulp.task("js", function() {
